@@ -6,7 +6,7 @@ int main() {
     float b;
     int opzione=0;
 
-    cin >> opzione >> a >> b;
+    cin >> a >> b >> opzione;
    
        switch(opzione){
         case 0:
