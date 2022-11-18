@@ -4,11 +4,11 @@ using namespace std;
 int main() {
     float a;
     float b;
-    int area=0;
+    int opzione=0;
 
-    cin >> area >> a >> b;
+    cin >> opzione >> a >> b;
    
-       switch(area){
+       switch(opzione){
         case 0:
             cout << ((a*b)/2) ;
             break;
