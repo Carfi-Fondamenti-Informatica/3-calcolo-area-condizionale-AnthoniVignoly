@@ -6,7 +6,7 @@ int main() {
     float b;
     int opzione=0;
 
-    cin >> a >> b >> opzione;
+    cin >> a >> b ;
    
        switch(opzione){
         case 0:
@@ -19,7 +19,7 @@ int main() {
             cout << (a*b);
             break;
         default:
-            cout << "Opzione non valida";
+            cout << "opzione non valida";
             break;
     }
 
